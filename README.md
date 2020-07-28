@@ -1,0 +1,1 @@
+# guruparan-1021.github.io
