@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" 
+
+content="width=device-width,intial-scale=1">
+	<title>"Coursera 
+
+assignment1"</title>
+	<style>
+/**********basic styling*********/
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	margin-bottom:20px;
+	text-align: center;
+	padding: 30px;
+	font-size: 50px;
+}
+.name1{
+	background-color: #FF0000;
+	color: white;
+}
+.name2{
+	background-color: #FFFF00;
+}
+.name3{
+	background-color:  skyblue;
+}
+.content-name{
+ border: 2px solid black;
+ width: 100px;
+ height: 40px;
+ margin-top: 0px;
+ margin-right: 36px;
+ padding: 5px 75px;
+ font-style: italic;
+ font-weight:bold; 
+ float: right;
+ text-align: center;
+position: relative;
+}
+/* simple framework.*/
+.content{
+	border:3px solid black;
+	width: 90%;
+	height: auto;
+	margin: 2.5%;
+	padding: 2%;
+	font-weight: bold;
+	color:#000000; 
+	background-color:#A9A9A9;
+}
+
+
+/**********large device********/
+@media (min-width: 1024px) {
+	.col-lg-1, .col-lg-2, .col-lg-3{
+float: left;
+}
+.col-lg-1{
+	width:33.33%;
+}
+.col-lg-2{
+	width:66.66%;
+}
+.col-lg-3{
+	width: 100%;
+}
+}
+
+/*******medium device*******/
+@media (min-width: 600px) and (max-width: 
+
+768px){
+.col-md-1, .col-md-2, .col-md-3{
+float: left;
+}
+.col-md-1{
+	width: 33.33%;
+}
+.col-md-2{
+	width: 50%;
+}
+.col-md-3{
+	width: 100%;
+}
+}
+
+/********* small device*******/
+@media (min-width: 500px)and (max-width: 
+
+414px){
+	.col-sm-1, .col-sm-2, .col-sm-3{
+float: left;
+}
+.col-sm-1{
+	width: 33.33%;
+}
+.col-sm-2{
+	width: 66.66%;
+}
+.col-sm-3{
+	width: 100%;
+}
+}
+</style>
+</head>
+<body>
+<h1>TYPES OF CARS</h1>
+<DIV CLASS="box">
+	<div class="col-lg-1 col-md-2 col-sm-3">
+	<p class="content-name name1">SEDAN</p>
+	<p class="content">A sedan is a passenger car in a 3 box configuration with A, B and C pillars. It is generally referred as a 4 door car with seating capacity of 4–5 people. Sedans can vary in size and length but for a car to be called sedan it generally means 4 doors, engine in front and trunk at the back</p>	
+	</div>
+</DIV>
+<DIV class="box">
+   <div class="col-lg-1 col-md-2 col-sm-3">
+   	<p class="content-name name2">BUS</p>
+   	<p class="content">Bus, any of a class of large, self-propelled, wheeled vehicles that are designed to carry passengers, generally on a fixed route. They were developed at the beginning of the 20th century to compete with streetcars by providing greater route flexibility. The bus was a natural outgrowth of the horse-driven coach.</p>
+   </div>
+   </DIV>
+   <DIV class="box">
+	<div class="col-lg-1 col-md-2 col-sm-3">
+	<p class="content-name name3">VAN</p>
+	<p class="content">A van is a type of vehicle. A van can carry either goods or people. A van is usually bigger than the regular sized car. Panel vans are used for deliveries and carrying goods. These usually have large cargo space and few windows. A van which is used to carry people is often called a minibus. It can usually carry many people, sometimes up to a total of 15</p>	
+</div>
+</DIV>
+</body>
+</html>
